@@ -1,6 +1,6 @@
 
 def union(array_1, array_2 ):
-    a1_U_a2 = []
+    a1_U_a2 = [] #Uniionized set of set A and B
 
     for x in array_1:
         a1_U_a2.append(x)
@@ -10,7 +10,7 @@ def union(array_1, array_2 ):
     print(a1_U_a2)
 
 def intersect(array_1, array_2):
-    a1_N_a2 = []
+    a1_N_a2 = [] #Intesected set of set A and B
 
     for x in array_1:
         for y in array_2:
