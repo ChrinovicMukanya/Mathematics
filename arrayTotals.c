@@ -12,17 +12,17 @@ int main(int argc, char * argv[])
 	int x;
 	int y;
 
-	int rowSum = 0;
-	int columnSum = 0;
+	int rowSum = 0;//Total rows
+	int columnSum = 0;//Total columns
 
-	//Row Total
+	//Looping through Rows
 	for(x = 0; x < 5; ++x){
 		for (y = 0; y < 5; ++y){
 			rowSum += array[x][y];
 		}	
 	}
 
-	//Column Total
+	//Looping through Columns
 	for(x = 0; x < 5; ++x){ 
 		for(y = 0; y < 5; ++y){
 			columnSum += array[y][x];
