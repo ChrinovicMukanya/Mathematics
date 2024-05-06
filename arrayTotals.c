@@ -19,14 +19,14 @@ int main(int argc, char * argv[])
 	//Looping through Rows
 	for(x = 0; x < 5; ++x){
 		for (y = 0; y < 5; ++y){
-			rowSum += array[x][y];
+			rowSum += array[x][y];//ADD SUM OF ROW WITH ROW VALUES
 		}	
 	}
 
 	//Looping through Columns
 	for(x = 0; x < 5; ++x){ 
 		for(y = 0; y < 5; ++y){
-			columnSum += array[y][x];
+			columnSum += array[y][x];//ADD SUM OF COLUMN WITH COLUMN VALUES
 		}
 	}
 
