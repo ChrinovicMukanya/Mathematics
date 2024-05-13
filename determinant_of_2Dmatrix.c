@@ -3,6 +3,7 @@
 
 int main(int argc, char * argv[])
 {
+	//TWO BY TWO MATRIX
 	int array[2][2] = {
 		{3,2,},
 		{2,1,}
