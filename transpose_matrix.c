@@ -10,7 +10,6 @@ int main(int argc, char * arhv[])
 		{1, 0, 4}
 	};
 	int totalElements = 3 * 3;
-	int arraylength = sizeof(totalElements); 
 	int x;
 	int y;
 	printf("ORIGINAL MATRIX\n");
