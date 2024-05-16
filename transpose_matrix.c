@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(int argc, char * argv[])
 {
+	// 3 x 3 matrix
 	int matrix_array[3][3] = {
 
 		{2, 1, -1},
