@@ -26,7 +26,7 @@ int main(int argc, char * argv[])
 	int new_transpose_matrix[3][3];
 		for (x = 0; x < 3; ++x){
 			for (y = 0; y < 3; ++y){
-				new_transpose_matrix[x][y] = matrix_array[y][x];
+				new_transpose_matrix[x][y] = matrix_array[y][x];//Sets matrix B rows to Matrix A columns
 				printf("%d\n", new_transpose_matrix[x][y]);
 			}
 		}
