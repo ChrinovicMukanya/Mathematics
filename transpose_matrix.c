@@ -23,7 +23,7 @@ int main(int argc, char * argv[])
 	printf("\n\n");
 	printf("TRANSPOSE MATRIX\n");
 	
-	int new_transpose_matrix[3][3];
+	int new_transpose_matrix[3][3];//sets 3 x 3 empty matrix for storing transposed values
 		for (x = 0; x < 3; ++x){
 			for (y = 0; y < 3; ++y){
 				new_transpose_matrix[x][y] = matrix_array[y][x];//Sets matrix B rows to Matrix A columns and matrix B columns to matrix A rows
