@@ -17,6 +17,7 @@ def intersect(array_1, array_2):
             if x == y:
                 a1_N_a2.append(x)
     print(a1_N_a2)
+    
 def compliment(complemant_array,universal_array):
     array_complemant = []#Stores the compliments values
     for x in complimant_array:
@@ -25,9 +26,11 @@ def compliment(complemant_array,universal_array):
                 array_complemant.append(y)
         break
     print(array_complemant)
-    
-ar1 = {1,2,3,4,5,6}
-ar2 = {6,7,8,9}
 
-union(ar1, ar2)
-intersect(ar1, ar2)
+universal_array = {1,2,3,4,5,6,7,8,9,10)
+array_A = {1,2,3,4,5,6}
+arrray_B = {6,7,8,9}
+
+union(array_A , array_B)
+intersect(array_A array_B)
+compliment(array_B, universal_array)
